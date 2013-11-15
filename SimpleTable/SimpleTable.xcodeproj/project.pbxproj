@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		122784A518156D3E00D3C701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122784A418156D3E00D3C701 /* UIKit.framework */; };
+		122784A718156D3E00D3C701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122784A618156D3E00D3C701 /* Foundation.framework */; };
+		122784A918156D3E00D3C701 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122784A818156D3E00D3C701 /* CoreGraphics.framework */; };
+		122784AF18156D3E00D3C701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 122784AD18156D3E00D3C701 /* InfoPlist.strings */; };
+		122784B118156D3E00D3C701 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 122784B018156D3E00D3C701 /* main.m */; };
+		122784B518156D3E00D3C701 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 122784B418156D3E00D3C701 /* AppDelegate.m */; };
+		122784B718156D3E00D3C701 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 122784B618156D3E00D3C701 /* Default.png */; };
+		122784B918156D3E00D3C701 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122784B818156D3E00D3C701 /* Default@2x.png */; };
+		122784BB18156D3E00D3C701 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 122784BA18156D3E00D3C701 /* Default-568h@2x.png */; };
+		122784BE18156D3E00D3C701 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 122784BD18156D3E00D3C701 /* ViewController.m */; };
+		122784C118156D3E00D3C701 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122784BF18156D3E00D3C701 /* ViewController_iPhone.xib */; };
+		122784C418156D3E00D3C701 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122784C218156D3E00D3C701 /* ViewController_iPad.xib */; };
+		122784CC18156D3F00D3C701 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122784CB18156D3F00D3C701 /* SenTestingKit.framework */; };
+		122784CD18156D3F00D3C701 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122784A418156D3E00D3C701 /* UIKit.framework */; };
+		122784CE18156D3F00D3C701 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 122784A618156D3E00D3C701 /* Foundation.framework */; };
+		122784D618156D3F00D3C701 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 122784D418156D3F00D3C701 /* InfoPlist.strings */; };
+		122784D918156D3F00D3C701 /* SimpleTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 122784D818156D3F00D3C701 /* SimpleTableTests.m */; };
+		122784E618156FF800D3C701 /* sortednames.plist in Resources */ = {isa = PBXBuildFile; fileRef = 122784E318156FF800D3C701 /* sortednames.plist */; };
+		122784E718156FF800D3C701 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 122784E418156FF800D3C701 /* star.png */; };
+		122784E818156FF800D3C701 /* star2.png in Resources */ = {isa = PBXBuildFile; fileRef = 122784E518156FF800D3C701 /* star2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		122784CF18156D3F00D3C701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1227849918156D3E00D3C701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 122784A018156D3E00D3C701;
+			remoteInfo = SimpleTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		122784A118156D3E00D3C701 /* SimpleTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		122784A418156D3E00D3C701 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		122784A618156D3E00D3C701 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		122784A818156D3E00D3C701 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		122784AC18156D3E00D3C701 /* SimpleTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTable-Info.plist"; sourceTree = "<group>"; };
+		122784AE18156D3E00D3C701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		122784B018156D3E00D3C701 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		122784B218156D3E00D3C701 /* SimpleTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleTable-Prefix.pch"; sourceTree = "<group>"; };
+		122784B318156D3E00D3C701 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		122784B418156D3E00D3C701 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		122784B618156D3E00D3C701 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		122784B818156D3E00D3C701 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		122784BA18156D3E00D3C701 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		122784BC18156D3E00D3C701 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		122784BD18156D3E00D3C701 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		122784C018156D3E00D3C701 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		122784C318156D3E00D3C701 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		122784CA18156D3F00D3C701 /* SimpleTableTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		122784CB18156D3F00D3C701 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		122784D318156D3F00D3C701 /* SimpleTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleTableTests-Info.plist"; sourceTree = "<group>"; };
+		122784D518156D3F00D3C701 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		122784D718156D3F00D3C701 /* SimpleTableTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTableTests.h; sourceTree = "<group>"; };
+		122784D818156D3F00D3C701 /* SimpleTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTableTests.m; sourceTree = "<group>"; };
+		122784E318156FF800D3C701 /* sortednames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sortednames.plist; sourceTree = "<group>"; };
+		122784E418156FF800D3C701 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		122784E518156FF800D3C701 /* star2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1227849E18156D3E00D3C701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122784A518156D3E00D3C701 /* UIKit.framework in Frameworks */,
+				122784A718156D3E00D3C701 /* Foundation.framework in Frameworks */,
+				122784A918156D3E00D3C701 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122784C618156D3F00D3C701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122784CC18156D3F00D3C701 /* SenTestingKit.framework in Frameworks */,
+				122784CD18156D3F00D3C701 /* UIKit.framework in Frameworks */,
+				122784CE18156D3F00D3C701 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1227849818156D3E00D3C701 = {
+			isa = PBXGroup;
+			children = (
+				122784AA18156D3E00D3C701 /* SimpleTable */,
+				122784D118156D3F00D3C701 /* SimpleTableTests */,
+				122784A318156D3E00D3C701 /* Frameworks */,
+				122784A218156D3E00D3C701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		122784A218156D3E00D3C701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				122784A118156D3E00D3C701 /* SimpleTable.app */,
+				122784CA18156D3F00D3C701 /* SimpleTableTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		122784A318156D3E00D3C701 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				122784A418156D3E00D3C701 /* UIKit.framework */,
+				122784A618156D3E00D3C701 /* Foundation.framework */,
+				122784A818156D3E00D3C701 /* CoreGraphics.framework */,
+				122784CB18156D3F00D3C701 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		122784AA18156D3E00D3C701 /* SimpleTable */ = {
+			isa = PBXGroup;
+			children = (
+				122784E218156FF800D3C701 /* resource */,
+				122784B318156D3E00D3C701 /* AppDelegate.h */,
+				122784B418156D3E00D3C701 /* AppDelegate.m */,
+				122784BC18156D3E00D3C701 /* ViewController.h */,
+				122784BD18156D3E00D3C701 /* ViewController.m */,
+				122784BF18156D3E00D3C701 /* ViewController_iPhone.xib */,
+				122784C218156D3E00D3C701 /* ViewController_iPad.xib */,
+				122784AB18156D3E00D3C701 /* Supporting Files */,
+			);
+			path = SimpleTable;
+			sourceTree = "<group>";
+		};
+		122784AB18156D3E00D3C701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				122784AC18156D3E00D3C701 /* SimpleTable-Info.plist */,
+				122784AD18156D3E00D3C701 /* InfoPlist.strings */,
+				122784B018156D3E00D3C701 /* main.m */,
+				122784B218156D3E00D3C701 /* SimpleTable-Prefix.pch */,
+				122784B618156D3E00D3C701 /* Default.png */,
+				122784B818156D3E00D3C701 /* Default@2x.png */,
+				122784BA18156D3E00D3C701 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		122784D118156D3F00D3C701 /* SimpleTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				122784D718156D3F00D3C701 /* SimpleTableTests.h */,
+				122784D818156D3F00D3C701 /* SimpleTableTests.m */,
+				122784D218156D3F00D3C701 /* Supporting Files */,
+			);
+			path = SimpleTableTests;
+			sourceTree = "<group>";
+		};
+		122784D218156D3F00D3C701 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				122784D318156D3F00D3C701 /* SimpleTableTests-Info.plist */,
+				122784D418156D3F00D3C701 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		122784E218156FF800D3C701 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				122784E318156FF800D3C701 /* sortednames.plist */,
+				122784E418156FF800D3C701 /* star.png */,
+				122784E518156FF800D3C701 /* star2.png */,
+			);
+			name = resource;
+			path = ../../../Downloads/resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		122784A018156D3E00D3C701 /* SimpleTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122784DC18156D3F00D3C701 /* Build configuration list for PBXNativeTarget "SimpleTable" */;
+			buildPhases = (
+				1227849D18156D3E00D3C701 /* Sources */,
+				1227849E18156D3E00D3C701 /* Frameworks */,
+				1227849F18156D3E00D3C701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTable;
+			productName = SimpleTable;
+			productReference = 122784A118156D3E00D3C701 /* SimpleTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		122784C918156D3F00D3C701 /* SimpleTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 122784DF18156D3F00D3C701 /* Build configuration list for PBXNativeTarget "SimpleTableTests" */;
+			buildPhases = (
+				122784C518156D3F00D3C701 /* Sources */,
+				122784C618156D3F00D3C701 /* Frameworks */,
+				122784C718156D3F00D3C701 /* Resources */,
+				122784C818156D3F00D3C701 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				122784D018156D3F00D3C701 /* PBXTargetDependency */,
+			);
+			name = SimpleTableTests;
+			productName = SimpleTableTests;
+			productReference = 122784CA18156D3F00D3C701 /* SimpleTableTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1227849918156D3E00D3C701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "qingfeng liu";
+			};
+			buildConfigurationList = 1227849C18156D3E00D3C701 /* Build configuration list for PBXProject "SimpleTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1227849818156D3E00D3C701;
+			productRefGroup = 122784A218156D3E00D3C701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				122784A018156D3E00D3C701 /* SimpleTable */,
+				122784C918156D3F00D3C701 /* SimpleTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1227849F18156D3E00D3C701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122784AF18156D3E00D3C701 /* InfoPlist.strings in Resources */,
+				122784B718156D3E00D3C701 /* Default.png in Resources */,
+				122784B918156D3E00D3C701 /* Default@2x.png in Resources */,
+				122784BB18156D3E00D3C701 /* Default-568h@2x.png in Resources */,
+				122784C118156D3E00D3C701 /* ViewController_iPhone.xib in Resources */,
+				122784C418156D3E00D3C701 /* ViewController_iPad.xib in Resources */,
+				122784E618156FF800D3C701 /* sortednames.plist in Resources */,
+				122784E718156FF800D3C701 /* star.png in Resources */,
+				122784E818156FF800D3C701 /* star2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122784C718156D3F00D3C701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122784D618156D3F00D3C701 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		122784C818156D3F00D3C701 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1227849D18156D3E00D3C701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122784B118156D3E00D3C701 /* main.m in Sources */,
+				122784B518156D3E00D3C701 /* AppDelegate.m in Sources */,
+				122784BE18156D3E00D3C701 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122784C518156D3F00D3C701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				122784D918156D3F00D3C701 /* SimpleTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		122784D018156D3F00D3C701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 122784A018156D3E00D3C701 /* SimpleTable */;
+			targetProxy = 122784CF18156D3F00D3C701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		122784AD18156D3E00D3C701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122784AE18156D3E00D3C701 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		122784BF18156D3E00D3C701 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122784C018156D3E00D3C701 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		122784C218156D3E00D3C701 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122784C318156D3E00D3C701 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		122784D418156D3F00D3C701 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				122784D518156D3F00D3C701 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		122784DA18156D3F00D3C701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		122784DB18156D3F00D3C701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		122784DD18156D3F00D3C701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		122784DE18156D3F00D3C701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTable/SimpleTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		122784E018156D3F00D3C701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleTable.app/SimpleTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableTests/SimpleTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		122784E118156D3F00D3C701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleTable.app/SimpleTable";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleTable/SimpleTable-Prefix.pch";
+				INFOPLIST_FILE = "SimpleTableTests/SimpleTableTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1227849C18156D3E00D3C701 /* Build configuration list for PBXProject "SimpleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122784DA18156D3F00D3C701 /* Debug */,
+				122784DB18156D3F00D3C701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		122784DC18156D3F00D3C701 /* Build configuration list for PBXNativeTarget "SimpleTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122784DD18156D3F00D3C701 /* Debug */,
+				122784DE18156D3F00D3C701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		122784DF18156D3F00D3C701 /* Build configuration list for PBXNativeTarget "SimpleTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				122784E018156D3F00D3C701 /* Debug */,
+				122784E118156D3F00D3C701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1227849918156D3E00D3C701 /* Project object */;
+}
