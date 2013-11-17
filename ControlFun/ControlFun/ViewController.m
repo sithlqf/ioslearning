@@ -19,6 +19,19 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.sliderLabel.text=@"50";
+    
+    //normal state
+    UIImage *buttonImageNormal=[UIImage imageNamed:@"whiteButton.png"];
+    UIEdgeInsets insets=UIEdgeInsetsMake(0, 12, 0, 12);
+    UIImage *stretchableButtonImageNormal=[buttonImageNormal resizableImageWithCapInsets:insets];
+    [self.doSomethingButton setBackgroundImage:stretchableButtonImageNormal forState:UIControlStateNormal];
+    
+    //pressed state
+    UIImage *buttonImagePressed=[UIImage imageNamed:@"blue.png"];
+    UIImage *stretchableButtonImagePressed=[buttonImagePressed resizableImageWithCapInsets:insets];
+    [self.doSomethingButton setBackgroundImage:stretchableButtonImagePressed forState:UIControlStateHighlighted];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -70,7 +83,7 @@
 
 -(IBAction)buttonPressed:(id)sender
 {
-    UIActionSheet *actionSheet=[[UIActionSheet alloc] initWithTitle:@"Are you sure?" delegate:self cancelButtonTitle:@"No Way!" destructiveButtonTitle:@"Yes, I'am Sure!" otherButtonTitles:nil];
+    UIActionSheet *actionSheet=[[UIActionSheet alloc] initWithTitle:@"Are you sure?" delegate: self cancelButtonTitle:@"No Way!" destructiveButtonTitle:@"Yes, I'am Sure!" otherButtonTitles:nil];
     [actionSheet showInView:self.view];
 }
 
