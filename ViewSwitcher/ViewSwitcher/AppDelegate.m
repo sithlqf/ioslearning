@@ -21,12 +21,13 @@
     
     //self added code
     self.rootViewController=[[RootViewController alloc]initWithNibName:@"RootView" bundle:nil];
-    UIView *switchView=self.rootViewController.view;
-    CGRect switchViewFrame=switchView.frame;
-    switchViewFrame.origin.y+=[UIApplication sharedApplication].statusBarFrame.size.height;
-    switchView.frame=switchViewFrame;
-    
-    [self.window addSubview:switchView];
+//    UIView *switchView=self.rootViewController.view;
+//    CGRect switchViewFrame=switchView.frame;
+//    switchViewFrame.origin.y+=[UIApplication sharedApplication].statusBarFrame.size.height;
+//    switchView.frame=switchViewFrame;
+//    
+//    [self.window addSubview:switchView];
+    self.window.rootViewController=self.rootViewController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

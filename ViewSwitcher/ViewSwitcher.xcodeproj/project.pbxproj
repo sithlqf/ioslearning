@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D34C6591839860300F875B4 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D34C6581839860300F875B4 /* RootView.xib */; };
 		1231467317F9B79B005804A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1231467217F9B79B005804A6 /* UIKit.framework */; };
 		1231467517F9B79B005804A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1231467417F9B79B005804A6 /* Foundation.framework */; };
 		1231467717F9B79B005804A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1231467617F9B79B005804A6 /* CoreGraphics.framework */; };
@@ -24,7 +25,6 @@
 		123146B817F9B93F005804A6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123146B717F9B93F005804A6 /* RootViewController.m */; };
 		123146BB17F9B94B005804A6 /* BlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123146BA17F9B94B005804A6 /* BlueViewController.m */; };
 		123146BE17F9B956005804A6 /* YellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123146BD17F9B956005804A6 /* YellowViewController.m */; };
-		123146C017F9B994005804A6 /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123146BF17F9B994005804A6 /* RootView.xib */; };
 		123146C217F9B9DE005804A6 /* BlueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123146C117F9B9DE005804A6 /* BlueView.xib */; };
 		123146C417F9B9EB005804A6 /* YellowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 123146C317F9B9EB005804A6 /* YellowView.xib */; };
 /* End PBXBuildFile section */
@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D34C6581839860300F875B4 /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
 		1231466F17F9B79B005804A6 /* ViewSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1231467217F9B79B005804A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1231467417F9B79B005804A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,7 +66,6 @@
 		123146BA17F9B94B005804A6 /* BlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueViewController.m; sourceTree = "<group>"; };
 		123146BC17F9B956005804A6 /* YellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YellowViewController.h; sourceTree = "<group>"; };
 		123146BD17F9B956005804A6 /* YellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YellowViewController.m; sourceTree = "<group>"; };
-		123146BF17F9B994005804A6 /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = "<group>"; };
 		123146C117F9B9DE005804A6 /* BlueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueView.xib; sourceTree = "<group>"; };
 		123146C317F9B9EB005804A6 /* YellowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YellowView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,9 +136,9 @@
 				123146BA17F9B94B005804A6 /* BlueViewController.m */,
 				123146BC17F9B956005804A6 /* YellowViewController.h */,
 				123146BD17F9B956005804A6 /* YellowViewController.m */,
-				123146BF17F9B994005804A6 /* RootView.xib */,
 				123146C117F9B9DE005804A6 /* BlueView.xib */,
 				123146C317F9B9EB005804A6 /* YellowView.xib */,
+				0D34C6581839860300F875B4 /* RootView.xib */,
 			);
 			path = ViewSwitcher;
 			sourceTree = "<group>";
@@ -251,9 +251,9 @@
 				1231468517F9B79B005804A6 /* Default.png in Resources */,
 				1231468717F9B79B005804A6 /* Default@2x.png in Resources */,
 				1231468917F9B79B005804A6 /* Default-568h@2x.png in Resources */,
-				123146C017F9B994005804A6 /* RootView.xib in Resources */,
 				123146C217F9B9DE005804A6 /* BlueView.xib in Resources */,
 				123146C417F9B9EB005804A6 /* YellowView.xib in Resources */,
+				0D34C6591839860300F875B4 /* RootView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +467,7 @@
 				123146A317F9B79B005804A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		123146A417F9B79B005804A6 /* Build configuration list for PBXNativeTarget "ViewSwitcherTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				123146A617F9B79B005804A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
