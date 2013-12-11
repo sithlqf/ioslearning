@@ -16,7 +16,14 @@
 
 @property (nonatomic, retain) CvVideoCamera* videoCamera;
 
+//@property (nonatomic, strong)NSMutableArray *values;
+@property (weak, nonatomic) IBOutlet UILabel *heartlabel;
+//@property (weak, nonatomic) IBOutlet UIProgressView *measureProgress;
+
+@property (weak, nonatomic) IBOutlet UILabel *progressLabel;
+
 - (IBAction)actionStart:(id)sender;
 
+- (void) turnOnTorch;
 
 @end
